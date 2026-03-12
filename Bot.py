@@ -728,7 +728,7 @@ async def handle_invalid_input(update: Update, context: ContextTypes.DEFAULT_TYP
 def main():
     """Основная функция запуска бота"""
     # Создание приложения
-    application = Application.builder().token("8044290157:AAH0_GXeAS78fQ5u_UupGP7IIh8d71GA5g0").build()
+    application = Application.builder().token("NotesOnline").build()
 
     # Создание ConversationHandler
     conv_handler = ConversationHandler(
@@ -788,4 +788,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
